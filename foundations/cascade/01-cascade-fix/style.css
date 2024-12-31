@@ -8,16 +8,19 @@ body {
   font-weight: 800;
 }
 
+.para {
+/* Move .para above .small-para block */
+  font-size: 22px;
+}
+
 .small-para {
+/* May add .para to form chain selector */
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+.confirm#confirm-button {
+/* Add #confirm-button to form chain selector */
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +32,9 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text .child { 
+/*Add .text and empty space to form descendant selector */
+/* May add .text to form chain selector */
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
